@@ -1,0 +1,97 @@
+Que voulez vous faire ???
+
+1-Ajouter un éleve
+2-Supprimer un èleve
+3-changez les données d'un éleve
+4-Lire la liste 
+
+>>1
+1/5 Nom de l'éleve >
+Lucas
+2/5 Prenom de l'éleve >
+Yan
+3/5 Date de naissance de l'éleve >
+20-06-2000
+4/5 email de l'éleve >
+Lucas.yan@mail.com
+5/5 Matricule de l'éleve >
+E55
+Insertion réussie
+----------------------------------------
+
+Que voulez vous faire ???
+
+1-Ajouter un éleve
+2-Supprimer un èleve
+3-changez les données d'un éleve
+4-Lire la liste 
+
+>>2
+ID : 1, Nom : Dupont, Prenom : Jean
+ID : 2, Nom : Martin, Prenom : Sophie
+ID : 3, Nom : Lefebvre, Prenom : Thomas
+ID : 4, Nom : Dubois, Prenom : Marie
+ID : 5, Nom : Thomas, Prenom : Julien
+ID : 6, Nom : Petit, Prenom : Emma
+ID : 7, Nom : Moreau, Prenom : Lucas
+ID : 8, Nom : Fournier, Prenom : Alice
+ID : 9, Nom : Roux, Prenom : Hugo
+ID : 10, Nom : Garcia, Prenom : Léa
+ID : 11, Nom : Benoit, Prenom : David
+ID : 30, Nom : Flavio, Prenom : Cormerais
+ID : 33, Nom : Lucas, Prenom : Yan
+Veuillez rentrez l'id de l'élève quz vosu souhaiter supprimer de la base de donnée >33
+Suppression réussie
+
+----------------------------------------------------------------------------------------
+
+Que voulez vous faire ???
+
+1-Ajouter un éleve
+2-Supprimer un èleve
+3-changez les données d'un éleve
+4-Lire la liste 
+
+>>3
+ID : 1, Nom : Dupont, Prenom : Jean
+ID : 2, Nom : Martin, Prenom : Sophie
+ID : 3, Nom : Lefebvre, Prenom : Thomas
+ID : 4, Nom : Dubois, Prenom : Marie
+ID : 5, Nom : Thomas, Prenom : Julien
+ID : 6, Nom : Petit, Prenom : Emma
+ID : 7, Nom : Moreau, Prenom : Lucas
+ID : 8, Nom : Fournier, Prenom : Alice
+ID : 9, Nom : Roux, Prenom : Hugo
+ID : 10, Nom : Garcia, Prenom : Léa
+ID : 11, Nom : Benoit, Prenom : David
+ID : 30, Nom : Flavio, Prenom : Cormerais
+Veuillez rentrez l'id de l'élève quz vous souhaiter modifié de la base de donnée >30
+Que voulez vous modifiez comme données ? >
+nom
+Par quelle valeur voulez-vous modifiez la donnée ? >
+Pierre
+Changement réussie
+
+----------------------------------------------------------------------------------
+
+
+Que voulez vous faire ???
+
+1-Ajouter un éleve
+2-Supprimer un èleve
+3-changez les données d'un éleve
+4-Lire la liste 
+
+>>4
+ID : 1, Nom : Dupont, Prenom : Jean
+ID : 2, Nom : Martin, Prenom : Sophie
+ID : 3, Nom : Lefebvre, Prenom : Thomas
+ID : 4, Nom : Dubois, Prenom : Marie
+ID : 5, Nom : Thomas, Prenom : Julien
+ID : 6, Nom : Petit, Prenom : Emma
+ID : 7, Nom : Moreau, Prenom : Lucas
+ID : 8, Nom : Fournier, Prenom : Alice
+ID : 9, Nom : Roux, Prenom : Hugo
+ID : 10, Nom : Garcia, Prenom : Léa
+ID : 11, Nom : Benoit, Prenom : David
+ID : 30, Nom : Pierre, Prenom : Cormerais
