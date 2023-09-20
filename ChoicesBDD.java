@@ -19,7 +19,7 @@ public class Choice {
             
         	Connection connection = DriverManager.getConnection(jdbcUrl, user, password);
         	
-        	System.out.print("Que voulez vous faire ???\n\n1-Ajouter un éleve\n2-Supprimer un èleve\n3-changez les données d'un éleve\n\n>>");
+        	System.out.print("Que voulez vous faire ???\n\n1-Ajouter un éleve\n2-Supprimer un èleve\n3-changez les données d'un éleve\n4-Lire la liste \n\n>>");
         	String choice = scanner.nextLine();
         	
         	if (Integer.valueOf(choice) == 1) {
@@ -109,6 +109,19 @@ public class Choice {
 	        	}else {
 	        		System.out.println("Changement échouée");
 	        	}
+        	}else if (Integer.valueOf(choice) == 4) {
+                java.sql.Statement stmt = connection.createStatement();
+                String sql = "SELECT * FROM etudiants";
+                ResultSet res = stmt.executeQuery(sql);
+                
+                while(res.next()){
+                    int id = res.getInt("id");
+                    String nom = res.getString("nom");
+                    String prenom = res.getString("prenom");
+                    System.out.print("ID : " + id);
+                    System.out.print(", Nom : " + nom);
+                    System.out.println(", Prenom : " + prenom);
+                 } 
         	}else {
         		System.out.println("Vous n'avez pas pris un choix valide :[");
         	}
